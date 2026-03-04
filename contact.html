@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Contact Little Wins Teaching. Send a message, request resources, or ask for mentorship support.">
+  <meta name="keywords" content="contact, teacher support, request resources, mentorship, message">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Little Wins Teaching | Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Little Wins Teaching</h1>
+        <p class="tagline">Contact us</p>
+      </div>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="resources.html">Free Resources</a>
+        <a class="nav-link" href="tips.html">Classroom Tips</a>
+        <a class="nav-link" href="mentorship.html">Mentorship</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-header">
+      <h2>Contact</h2>
+      <p>
+        Send a message to request resources, ask a question, or share what you’re working on.
+      </p>
+    </section>
+
+    <section class="card">
+      <h3>Contact Form</h3>
+      <p class="small-note">
+        Form requirement: 4+ fields, meaningful names, submit button, and <code>action="#"</code>.
+      </p>
+
+      <form class="form" action="#" method="post">
+        <div class="form-row">
+          <label for="fullName">Full Name</label>
+          <input type="text" id="fullName" name="fullName" required>
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-row">
+          <label for="topic">Topic</label>
+          <select id="topic" name="topic">
+            <option value="resources">Request a resource</option>
+            <option value="tips">Ask for classroom tips</option>
+            <option value="mentorship">Mentorship/support</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell us what you need..."></textarea>
+        </div>
+
+        <button class="btn" type="submit">Submit</button>
+      </form>
+
+      <p class="small-note" style="margin-top: 14px;">
+        Prefer email? Use this link:
+        <a class="text-link" href="mailto:teacherhelp@littlewins.com">teacherhelp@littlewins.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Little Wins Teaching</p>
+      <p class="small-note">
+        Email: <a href="mailto:teacherhelp@littlewins.com">teacherhelp@littlewins.com</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
